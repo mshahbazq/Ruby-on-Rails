@@ -1,24 +1,13 @@
-# README
+# Please follow:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The below steps to pull and run the app on your machine.
 
 Things you may want to cover:
 
-* Ruby version
+* Install Ruby version from ruby-version file 
 
-* System dependencies
+* Install Gems from Gemfile
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 * ...
