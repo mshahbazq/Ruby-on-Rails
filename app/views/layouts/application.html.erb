@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Foodlog</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    
+    <%= stylesheet_link_tag 'bluma.min', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render 'shared/header' %>
+    <% if notice.present? %>
+      <div class="notification is-light"><%= notice %></div>
+    <% end %>
+
+    <% if alert.present? %>
+      <div class="notification is-danger is-light"><%= alert %></div>
+    <% end %>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+    
+  </body>
+</html>
